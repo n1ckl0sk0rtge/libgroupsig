@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/CMakeFiles/mclproject"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/CMakeFiles/mclproject.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/CMakeFiles/mclproject-complete.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-build.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-configure.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-download.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-install.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-mkdir.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-patch.rule"
+		},
+		{
+			"file" : "/Users/nicklas/_projects/libgroupsig/build/mclproject-prefix/src/mclproject-stamp/mclproject-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mclproject"
+		],
+		"name" : "mclproject"
+	}
+}

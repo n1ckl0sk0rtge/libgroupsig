@@ -1,0 +1,234 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/groupsig.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/grp_key.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/mgr_key.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/mem_key.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/bld_key.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/signature.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/blindsig.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/proof.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/identity.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/trapdoor.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/gml.c.o"
+		},
+		{
+			"path" : "src/groupsig/CMakeFiles/objlib.dir/crl.c.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/groupsig/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fcommon -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/nicklas/_projects/libgroupsig/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/nicklas/_projects/libgroupsig/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/nicklas/_projects/libgroupsig/build/external/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"id" : "objlib::@3a8520658cb72310493b",
+	"name" : "objlib",
+	"paths" : 
+	{
+		"build" : "src/groupsig",
+		"source" : "src/groupsig"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/groupsig.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/grp_key.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/mgr_key.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/mem_key.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/bld_key.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/signature.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/blindsig.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/proof.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/identity.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/trapdoor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/gml.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/groupsig/crl.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

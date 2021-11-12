@@ -1,0 +1,347 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/open"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/tools/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fcommon -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/nicklas/_projects/libgroupsig/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/nicklas/_projects/libgroupsig/src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/nicklas/_projects/libgroupsig/build/external/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/local/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "logger::@d5374f2bfdcf69980c1c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "msg::@1282e65f5e5794421048"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sys::@8cd649e2a27548971a89"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "hash::@1b48d9e2c2078579ab05"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "big::@1b48d9e2c2078579ab05"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "pbcext::@1b48d9e2c2078579ab05"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "base64::@1b48d9e2c2078579ab05"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gcrypto::@f9c2fa495612d34facca"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "math::@c3aed6c50cc997bcdd53"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "misc::@32fad1bb1431edb5ea41"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "groupsig::@3a8520658cb72310493b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "bbs04::@34d5c6945d0884eee9df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gl19::@c668194e165e007f6d8c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ps16::@739b962b9815ab3fff7e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "klap20::@a34d8201cefe7a1b673e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "dl21::@d1fe67685e9fa813305f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "dl21seq::@16bc6c2171d4f92eda87"
+		}
+	],
+	"id" : "open::@de05559f4338c8534979",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fcommon",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/Users/nicklas/_projects/libgroupsig/build/external/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/nicklas/_projects/libgroupsig/build/external/lib -Wl,-rpath,/Users/nicklas/_projects/libgroupsig/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../lib/libgroupsig.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/opt/openssl/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/opt/openssl/lib/libcrypto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmcl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmclbn384_256",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libbbs04.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libgl19.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libps16.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libklap20.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libdl21.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libdl21seq.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libsys.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libmath.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libbig.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libhash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libmisc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libgcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/opt/openssl/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/opt/openssl/lib/libcrypto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libmsg.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libbase64.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/libpbcext.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmcl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmclbn384_256",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../lib/liblogger.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "open",
+	"nameOnDisk" : "open",
+	"paths" : 
+	{
+		"build" : "src/tools",
+		"source" : "src/tools"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tools/open.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

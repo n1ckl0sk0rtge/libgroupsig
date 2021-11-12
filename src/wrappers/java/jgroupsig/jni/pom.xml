@@ -52,7 +52,7 @@
           <compilerStartOptions>
             <compilerStartOption>-I ${basedir}/../../../../../src/include</compilerStartOption>	    
             <compilerStartOption>-I ${JAVA_HOME}/include/</compilerStartOption>
-            <compilerStartOption>-I ${JAVA_HOME}/include/linux/</compilerStartOption>
+            <compilerStartOption>-I /usr/local/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home/include/</compilerStartOption>
           </compilerStartOptions>
           <compilerEndOptions>
             <compilerEndOption>-fPIC</compilerEndOption>
@@ -62,13 +62,13 @@
             <linkerStartOption>-I ${JAVA_HOME}/include/</linkerStartOption>
             <linkerStartOption>-I ${JAVA_HOME}/include/linux/</linkerStartOption>
             <linkerStartOption>-I ${JAVA_HOME}/lib/</linkerStartOption>
-	    <linkerStartOption>-Wl,-rpath=${basedir}/../../../../../build/lib/</linkerStartOption>
+	    <linkerStartOption>-Wl,-rpath,${basedir}/../../../../../build/lib/</linkerStartOption>
             <!--<linkerStartOption>-L ${basedir}/src/main/c/lib</linkerStartOption>-->
           </linkerStartOptions>
           <linkerEndOptions>
             <linkerEndOption>-shared</linkerEndOption>
             <linkerEndOption>-fPIC</linkerEndOption>
-	    <linkerEndOption>${basedir}/../../../../../build/lib/libgroupsig.so</linkerEndOption>
+	    <linkerEndOption>${basedir}/../../../../../build/lib/libgroupsig.dylib</linkerEndOption>
           </linkerEndOptions>
         </configuration>
       </plugin>
@@ -92,7 +92,7 @@
                   <type>so</type>
                   <overWrite>false</overWrite>
                   <outputDirectory>${project.build.directory}/main/resources</outputDirectory>
-                  <destFileName>libjnigroupsig.so</destFileName>
+                  <destFileName>libjnigroupsig.dylib</destFileName>
                 </artifactItem>
 	      </artifactItems>
 	    </configuration>

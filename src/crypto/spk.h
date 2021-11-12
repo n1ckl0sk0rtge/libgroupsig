@@ -20,6 +20,7 @@
 #ifndef _GS_SPK_H
 #define _GS_SPK_H
 
+#include <limits.h>
 #include "types.h"
 #include "sysenv.h"
 #include "bigz.h"

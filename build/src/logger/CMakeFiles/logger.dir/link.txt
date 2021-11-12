@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/liblogger.a CMakeFiles/logger.dir/logger.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/liblogger.a

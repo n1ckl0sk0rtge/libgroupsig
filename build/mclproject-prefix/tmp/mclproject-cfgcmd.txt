@@ -1,0 +1,1 @@
+cmd='/usr/local/Cellar/cmake/3.21.4/bin/cmake;-DMCL_USE_GMP=OFF;-DCMAKE_INSTALL_PREFIX=/Users/nicklas/_projects/libgroupsig/build/external;-DCMAKE_INSTALL_RPATH=/Users/nicklas/_projects/libgroupsig/build/external/lib;-DCMAKE_CXX_FLAGS=-fPIC;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

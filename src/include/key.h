@@ -20,6 +20,7 @@
 #ifndef _GROUPSIG_KEY_H
 #define _GROUPSIG_KEY_H
 
+#include <limits.h>
 #include <stdint.h>
 #include "types.h"
 
