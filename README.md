@@ -1,6 +1,6 @@
 # libgroupsig
 
-**This is a fork of https://github.com/IBM/libgroupsig** with the focus on compiling the library within a Docker container and building the java warpper on macOS
+*This is a fork of [libgroupsig](https://github.com/IBM/libgroupsig) with the focus on compiling the library within a Docker container and building the java warpper on macOS*
 
 Welcome to _libgroupsig_, an extensible library for group signatures. Below,
 you can find basic information about how to build the library. For more detailed
